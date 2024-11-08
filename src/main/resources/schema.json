@@ -7,25 +7,42 @@
       "items": {
         "type": "object",
         "properties": {
-          "nombre": { "type": "string" },
-          "añoNacimiento": { "type": "integer" },
-          "pais": { "type": "string" }
+          "nombre": {
+            "type": "string",
+            "minLength": 1
+          },
+          "añoNacimiento": {
+            "type": "integer",
+            "minimum": 1900,
+            "maximum": 2024
+          },
+          "pais": {
+            "type": "string",
+            "minLength": 1
+          },
+          "canciones": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "titulo": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "añoLanzamiento": {
+                  "type": "integer",
+                  "minimum": 1900,
+                  "maximum": 2024
+                }
+              },
+              "required": ["titulo", "añoLanzamiento"]
+            },
+            "minItems": 1
+          }
         },
-        "required": ["nombre", "añoNacimiento", "pais"]
-      }
-    },
-    "canciones": {
-      "type": "array",
-      "items": {
-        "type": "object",
-        "properties": {
-          "titulo": { "type": "string" },
-          "añoLanzamiento": { "type": "integer" },
-          "cantante": { "type": "string" }
-        },
-        "required": ["titulo", "añoLanzamiento", "cantante"]
+        "required": ["nombre", "añoNacimiento", "pais", "canciones"]
       }
     }
   },
-  "required": ["cantantes", "canciones"]
+  "required": ["cantantes"]
 }

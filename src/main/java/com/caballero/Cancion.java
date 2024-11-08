@@ -1,38 +1,34 @@
 package com.caballero;
 
-public class Cancion {
-    private String titulo;
-    private int añoLanzamiento;
-    private String cantante;
 
-    public Cancion(String titulo, int añoLanzamiento, String cantante) {
+import com.fasterxml.jackson.annotation.JsonProperty;
+
+@JacksonXmlRootElement(localName = "cancion")
+public class Cancion {
+    @JsonProperty("titulo")
+    private String titulo;
+    @JsonProperty("añoLanzamiento")
+    private int añoLanzamiento;
+
+    public Cancion(String titulo, int añoLanzamiento) {
         this.titulo = titulo;
         this.añoLanzamiento = añoLanzamiento;
-        this.cantante = cantante;
     }
 
     public String getTitulo() {
         return titulo;
     }
 
-    public int getAñoLanzamiento() {
-        return añoLanzamiento;
-    }
-
-    public String getCantante() {
-        return cantante;
-    }
-
     public void setTitulo(String titulo) {
         this.titulo = titulo;
     }
 
-    public void setAñoLanzamiento(int añoLanzamiento) {
-        this.añoLanzamiento = añoLanzamiento;
+    public int getAñoLanzamiento() {
+        return añoLanzamiento;
     }
 
-    public void setCantante(String cantante) {
-        this.cantante = cantante;
+    public void setAñoLanzamiento(int añoLanzamiento) {
+        this.añoLanzamiento = añoLanzamiento;
     }
 
     @Override
@@ -40,7 +36,6 @@ public class Cancion {
         return "Cancion{" +
                 "titulo='" + titulo + '\'' +
                 ", añoLanzamiento=" + añoLanzamiento +
-                ", cantante='" + cantante + '\'' +
                 '}';
     }
 }

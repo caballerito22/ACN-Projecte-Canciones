@@ -3,154 +3,137 @@
     {
       "nombre": "Myke Towers",
       "añoNacimiento": 1994,
-      "pais": "Puerto Rico"
+      "pais": "Puerto Rico",
+      "canciones": [
+        {
+          "titulo": "La Jeepeta",
+          "añoLanzamiento": 2020
+        },
+        {
+          "titulo": "Girl",
+          "añoLanzamiento": 2019
+        },
+        {
+          "titulo": "Bandido",
+          "añoLanzamiento": 2020
+        },
+        {
+          "titulo": "Mírenme Ahora",
+          "añoLanzamiento": 2022
+        },
+        {
+          "titulo": "Experimento",
+          "añoLanzamiento": 2022
+        }
+      ]
     },
     {
       "nombre": "Quevedo",
       "añoNacimiento": 2001,
-      "pais": "España"
+      "pais": "España",
+      "canciones": [
+        {
+          "titulo": "Quédate",
+          "añoLanzamiento": 2022
+        },
+        {
+          "titulo": "Punto G",
+          "añoLanzamiento": 2021
+        },
+        {
+          "titulo": "Ahora y Siempre",
+          "añoLanzamiento": 2022
+        },
+        {
+          "titulo": "Sin Señal",
+          "añoLanzamiento": 2021
+        },
+        {
+          "titulo": "Chamaquita",
+          "añoLanzamiento": 2021
+        }
+      ]
     },
     {
       "nombre": "Jhayco",
       "añoNacimiento": 1993,
-      "pais": "Puerto Rico"
+      "pais": "Puerto Rico",
+      "canciones": [
+        {
+          "titulo": "No Me Conoce",
+          "añoLanzamiento": 2019
+        },
+        {
+          "titulo": "Dákiti",
+          "añoLanzamiento": 2020
+        },
+        {
+          "titulo": "En Mi Cuarto",
+          "añoLanzamiento": 2021
+        },
+        {
+          "titulo": "Tarot",
+          "añoLanzamiento": 2022
+        },
+        {
+          "titulo": "Sensual Bebé",
+          "añoLanzamiento": 2022
+        }
+      ]
     },
     {
       "nombre": "Gonzy",
       "añoNacimiento": 1993,
-      "pais": "EEUU"
+      "pais": "EEUU",
+      "canciones": [
+        {
+          "titulo": "X’CLUSIVO",
+          "añoLanzamiento": 2023
+        },
+        {
+          "titulo": "La Jaula",
+          "añoLanzamiento": 2024
+        },
+        {
+          "titulo": "La Calma",
+          "añoLanzamiento": 2023
+        },
+        {
+          "titulo": "EROTICAAAAAAA",
+          "añoLanzamiento": 2024
+        },
+        {
+          "titulo": "Friki",
+          "añoLanzamiento": 2024
+        }
+      ]
     },
     {
       "nombre": "Lucho RK",
       "añoNacimiento": 2000,
-      "pais": "España"
-    }
-  ],
-  "canciones": [
-    {
-      "titulo": "La Jeepeta",
-      "añoLanzamiento": 2020,
-      "cantante": "Myke Towers"
-    },
-    {
-      "titulo": "Girl",
-      "añoLanzamiento": 2019,
-      "cantante": "Myke Towers"
-    },
-    {
-      "titulo": "Bandido",
-      "añoLanzamiento": 2020,
-      "cantante": "Myke Towers"
-    },
-    {
-      "titulo": "Mírenme Ahora",
-      "añoLanzamiento": 2022,
-      "cantante": "Myke Towers"
-    },
-    {
-      "titulo": "Experimento",
-      "añoLanzamiento": 2022,
-      "cantante": "Myke Towers"
-    },
-    {
-      "titulo": "Quédate",
-      "añoLanzamiento": 2022,
-      "cantante": "Quevedo"
-    },
-    {
-      "titulo": "Punto G",
-      "añoLanzamiento": 2021,
-      "cantante": "Quevedo"
-    },
-    {
-      "titulo": "Ahora y Siempre",
-      "añoLanzamiento": 2022,
-      "cantante": "Quevedo"
-    },
-    {
-      "titulo": "Sin Señal",
-      "añoLanzamiento": 2021,
-      "cantante": "Quevedo"
-    },
-    {
-      "titulo": "Chamaquita",
-      "añoLanzamiento": 2021,
-      "cantante": "Quevedo"
-    },
-    {
-      "titulo": "No Me Conoce",
-      "añoLanzamiento": 2019,
-      "cantante": "Jhayco"
-    },
-    {
-      "titulo": "Dákiti",
-      "añoLanzamiento": 2020,
-      "cantante": "Jhayco"
-    },
-    {
-      "titulo": "En Mi Cuarto",
-      "añoLanzamiento": 2021,
-      "cantante": "Jhayco"
-    },
-    {
-      "titulo": "Tarot",
-      "añoLanzamiento": 2022,
-      "cantante": "Jhayco"
-    },
-    {
-      "titulo": "Sensual Bebé",
-      "añoLanzamiento": 2022,
-      "cantante": "Jhayco"
-    },
-    {
-      "titulo": "X’CLUSIVO",
-      "añoLanzamiento": 2023,
-      "cantante": "Gonzy"
-    },
-    {
-      "titulo": "La Jaula",
-      "añoLanzamiento": 2024,
-      "cantante": "Gonzy"
-    },
-    {
-      "titulo": "La Calma",
-      "añoLanzamiento": 2023,
-      "cantante": "Gonzy"
-    },
-    {
-      "titulo": "EROTICAAAAAAA",
-      "añoLanzamiento": 2024,
-      "cantante": "Gonzy"
-    },
-    {
-      "titulo": "Friki",
-      "añoLanzamiento": 2024,
-      "cantante": "Gonzy"
-    },
-    {
-      "titulo": "Caramelo",
-      "añoLanzamiento": 2024,
-      "cantante": "Lucho RK"
-    },
-    {
-      "titulo": "Big Checks",
-      "añoLanzamiento": 2024,
-      "cantante": "Lucho RK"
-    },
-    {
-      "titulo": "Esos Ojitos",
-      "añoLanzamiento": 2024,
-      "cantante": "Lucho RK"
-    },
-    {
-      "titulo": "AIAIAI",
-      "añoLanzamiento": 2024,
-      "cantante": "Lucho RK"
-    },
-    {
-      "titulo": "Aquí Estoy",
-      "añoLanzamiento": 2024,
-      "cantante": "Lucho RK"
+      "pais": "España",
+      "canciones": [
+        {
+          "titulo": "Caramelo",
+          "añoLanzamiento": 2024
+        },
+        {
+          "titulo": "Big Checks",
+          "añoLanzamiento": 2024
+        },
+        {
+          "titulo": "Esos Ojitos",
+          "añoLanzamiento": 2024
+        },
+        {
+          "titulo": "AIAIAI",
+          "añoLanzamiento": 2024
+        },
+        {
+          "titulo": "Aquí Estoy",
+          "añoLanzamiento": 2024
+        }
+      ]
     }
   ]
 }
