@@ -3,8 +3,8 @@ package com.caballero;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.thymeleaf.TemplateEngine;
 import org.thymeleaf.templateresolver.ClassLoaderTemplateResolver;
+import org.thymeleaf.context.Context;
 
-import javax.naming.Context;
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;

@@ -7,23 +7,28 @@
       "canciones": [
         {
           "titulo": "La Jeepeta",
-          "añoLanzamiento": 2020
+          "añoLanzamiento": 2020,
+          "reproducciones": 5000000
         },
         {
           "titulo": "Girl",
-          "añoLanzamiento": 2019
+          "añoLanzamiento": 2019,
+          "reproducciones": 4500000
         },
         {
           "titulo": "Bandido",
-          "añoLanzamiento": 2020
+          "añoLanzamiento": 2020,
+          "reproducciones": 6000000
         },
         {
           "titulo": "Mírenme Ahora",
-          "añoLanzamiento": 2022
+          "añoLanzamiento": 2022,
+          "reproducciones": 7000000
         },
         {
           "titulo": "Experimento",
-          "añoLanzamiento": 2022
+          "añoLanzamiento": 2022,
+          "reproducciones": 8000000
         }
       ]
     },
@@ -34,23 +39,28 @@
       "canciones": [
         {
           "titulo": "Quédate",
-          "añoLanzamiento": 2022
+          "añoLanzamiento": 2022,
+          "reproducciones": 4000000
         },
         {
           "titulo": "Punto G",
-          "añoLanzamiento": 2021
+          "añoLanzamiento": 2021,
+          "reproducciones": 3000000
         },
         {
           "titulo": "Ahora y Siempre",
-          "añoLanzamiento": 2022
+          "añoLanzamiento": 2022,
+          "reproducciones": 3500000
         },
         {
           "titulo": "Sin Señal",
-          "añoLanzamiento": 2021
+          "añoLanzamiento": 2021,
+          "reproducciones": 2500000
         },
         {
           "titulo": "Chamaquita",
-          "añoLanzamiento": 2021
+          "añoLanzamiento": 2021,
+          "reproducciones": 2000000
         }
       ]
     },
@@ -61,23 +71,28 @@
       "canciones": [
         {
           "titulo": "No Me Conoce",
-          "añoLanzamiento": 2019
+          "añoLanzamiento": 2019,
+          "reproducciones": 8000000
         },
         {
           "titulo": "Dákiti",
-          "añoLanzamiento": 2020
+          "añoLanzamiento": 2020,
+          "reproducciones": 8500000
         },
         {
           "titulo": "En Mi Cuarto",
-          "añoLanzamiento": 2021
+          "añoLanzamiento": 2021,
+          "reproducciones": 7500000
         },
         {
           "titulo": "Tarot",
-          "añoLanzamiento": 2022
+          "añoLanzamiento": 2022,
+          "reproducciones": 9000000
         },
         {
           "titulo": "Sensual Bebé",
-          "añoLanzamiento": 2022
+          "añoLanzamiento": 2022,
+          "reproducciones": 9500000
         }
       ]
     },
@@ -88,23 +103,28 @@
       "canciones": [
         {
           "titulo": "X’CLUSIVO",
-          "añoLanzamiento": 2023
+          "añoLanzamiento": 2023,
+          "reproducciones": 1000000
         },
         {
           "titulo": "La Jaula",
-          "añoLanzamiento": 2024
+          "añoLanzamiento": 2024,
+          "reproducciones": 1500000
         },
         {
           "titulo": "La Calma",
-          "añoLanzamiento": 2023
+          "añoLanzamiento": 2023,
+          "reproducciones": 1200000
         },
         {
           "titulo": "EROTICAAAAAAA",
-          "añoLanzamiento": 2024
+          "añoLanzamiento": 2024,
+          "reproducciones": 1700000
         },
         {
           "titulo": "Friki",
-          "añoLanzamiento": 2024
+          "añoLanzamiento": 2024,
+          "reproducciones": 1600000
         }
       ]
     },
@@ -115,23 +135,28 @@
       "canciones": [
         {
           "titulo": "Caramelo",
-          "añoLanzamiento": 2024
+          "añoLanzamiento": 2024,
+          "reproducciones": 800000
         },
         {
           "titulo": "Big Checks",
-          "añoLanzamiento": 2024
+          "añoLanzamiento": 2024,
+          "reproducciones": 900000
         },
         {
           "titulo": "Esos Ojitos",
-          "añoLanzamiento": 2024
+          "añoLanzamiento": 2024,
+          "reproducciones": 950000
         },
         {
           "titulo": "AIAIAI",
-          "añoLanzamiento": 2024
+          "añoLanzamiento": 2024,
+          "reproducciones": 1000000
         },
         {
           "titulo": "Aquí Estoy",
-          "añoLanzamiento": 2024
+          "añoLanzamiento": 2024,
+          "reproducciones": 1050000
         }
       ]
     }

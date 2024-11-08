@@ -1,0 +1,115 @@
+/* Estilos generales para la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Fondo gris claro */
+    color: #333; /* Texto oscuro para buen contraste */
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado principal */
+header {
+    background-color: #333; /* Fondo oscuro */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Estilos del contenido principal */
+main {
+    padding: 20px;
+}
+
+/* Sección de lista de generaciones */
+section h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+section ul li {
+    background-color: #fff; /* Fondo blanco para cada ítem */
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+section ul li h3 {
+    margin: 0;
+    font-size: 1.8em;
+    color: #007bff; /* Color azul para los títulos */
+}
+
+section ul li p {
+    font-size: 1.1em;
+    color: #666;
+}
+
+section ul li a {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 1.1em;
+    color: #007bff;
+    text-decoration: none;
+}
+
+section ul li a:hover {
+    text-decoration: underline; /* Subrayado al pasar el cursor */
+}
+
+/* Botón para volver a la página principal */
+.button {
+    display: inline-block;
+    background-color: #007bff; /* Fondo azul */
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: #0056b3; /* Cambio de color al pasar el cursor */
+}
+/* Ajustes generales de estilo para las imágenes */
+img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+/* Ajustes generales para los cantantes */
+li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+h3 {
+    flex: 1;
+    margin: 0;
+}
+
+
+
+
+

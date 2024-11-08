@@ -20,7 +20,7 @@ public class Cantante {
         this.pais = pais;
         this.canciones = canciones;
     }
-
+public Cantante() {}
 
     public String getNombre() {
         return nombre;
