@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title th:text="'Detalles de ' + ${cantante.nombre}"> </title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header>
+    <h1 th:text="${cantante.nombre}"></h1>
+    <p>Año de nacimiento: <span th:text="${cantante.añoNacimiento}"></span></p>
+    <p>País: <span th:text="${cantante.pais}"></span></p>
+</header>
+
+<main>
+    <section>
+        <h2>Canciones de este Cantante</h2>
+        <ul>
+            <li th:each="cancion : ${cantante.canciones}">
+                <h3 th:text="${cancion.titulo}"></h3>
+                <p>Año de lanzamiento: <span th:text="${cancion.añoLanzamiento}"></span></p>
+            </li>
+        </ul>
+    </section>
+
+    <a href="index.html" class="button">Volver a la página principal</a>
+</main>
+</body>
+</html>

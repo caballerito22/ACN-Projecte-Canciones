@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Mejores Cantantes con sus Canciones</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header>
+    <h1>Cantantes y Canciones</h1>
+    <p>¡¡Explora los cantantes y sus canciones!!</p>
+</header>
+
+<main>
+    <section>
+        <h2>Lista de Cantantes</h2>
+        <ul>
+            <li th:each="cantante : ${cantantes}">
+                <!-- Mostrar el nombre del cantante y su año de nacimiento -->
+                <h3 th:text="${cantante.nombre + ' (' + cantante.añoNacimiento + ')'}"></h3>
+                <p>Pais: <span th:text="${cantante.pais}"></span></p>
+
+                <h4>Canciones:</h4>
+                <ul>
+                    <li th:each="cancion : ${cantante.canciones}">
+                        <!-- Mostrar título de cada canción y su año de lanzamiento -->
+                        <p th:text="${cancion.titulo + ' (' + cancion.añoLanzamiento + ')'}"></p>
+                    </li>
+                </ul>
+
+                <a th:href="@{'detalles_' + ${cantante.nombre} + '.html'}">Ver detalles del cantante</a>
+            </li>
+        </ul>
+    </section>
+</main>
+</body>
+</html>
