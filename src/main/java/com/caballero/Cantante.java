@@ -3,7 +3,6 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.util.List;
 
-@JacksonXmlRootElement(localName = "cantante")
 public class Cantante {
 
     @JsonProperty("nombre")
@@ -13,7 +12,6 @@ public class Cantante {
     @JsonProperty("pais")
     private String pais;
     @JsonProperty("canciones")
-    @JacksonXmlElementWrapper(localName = "canciones")
     private List<Cancion> canciones;
 
     public Cantante(String nombre, int añoNacimiento, String pais, List<Cancion> canciones) {

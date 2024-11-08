@@ -3,7 +3,6 @@ package com.caballero;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-@JacksonXmlRootElement(localName = "cancion")
 public class Cancion {
     @JsonProperty("titulo")
     private String titulo;
