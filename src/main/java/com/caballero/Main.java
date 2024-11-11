@@ -19,6 +19,7 @@ public class Main {
         TemplateEngine templateEngine = new TemplateEngine();
         templateEngine.setTemplateResolver(templateResolver);
 
+
         Context context = new Context();
 
         ListaDeCantantes lDc = cargaDatos("src/main/resources/cantantes.json");
