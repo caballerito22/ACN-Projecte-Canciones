@@ -19,7 +19,6 @@ public class Main {
         TemplateEngine templateEngine = new TemplateEngine();
         templateEngine.setTemplateResolver(templateResolver);
 
-
         Context context = new Context();
 
         ListaDeCantantes lDc = cargaDatos("src/main/resources/cantantes.json");
@@ -29,7 +28,7 @@ public class Main {
             context.setVariable("cantantes", lDc.getCantantes());
 
             // Generar el HTML principal (por ejemplo, un índice con todos los cantantes)
-            String contenidoHTML = templateEngine.process("plantilla1", context);
+            String contenidoHTML = templateEngine.process("plantillaCantantes.html", context);
             System.out.println(contenidoHTML);
 
             // Escribir el HTML generado en un archivo
@@ -41,7 +40,7 @@ public class Main {
                 contextDetalles.setVariable("cantante", cantante);
 
                 // Generar HTML para cada cantante
-                String detallesHTML = templateEngine.process("plantilla2", contextDetalles);
+                String detallesHTML = templateEngine.process("plantillaCanciones.html", contextDetalles);
                 String fileName = "src/main/resources/static/detalles_" + cantante.getNombre() + ".html";
 
                 // Escribir cada archivo HTML de detalles
