@@ -13,11 +13,15 @@ public class Cancion {
     @JsonProperty("reproducciones")
     private int reproducciones;
 
+    @JsonProperty("imagen")
+    private String imagen;
+
     // Constructor con todos los atributos
-    public Cancion(String titulo, int añoLanzamiento, int reproducciones) {
+    public Cancion(String titulo, int añoLanzamiento, int reproducciones, String imagen) {
         this.titulo = titulo;
         this.añoLanzamiento = añoLanzamiento;
         this.reproducciones = reproducciones;
+        this.imagen = imagen;
     }
 
     // Constructor vacío
@@ -48,12 +52,21 @@ public class Cancion {
         this.reproducciones = reproducciones;
     }
 
+    public String getImagen() {
+        return imagen;
+    }
+
+    public void setImagen(String imagen) {
+        this.imagen = imagen;
+    }
+
     @Override
     public String toString() {
         return "Cancion{" +
                 "titulo='" + titulo + '\'' +
                 ", añoLanzamiento=" + añoLanzamiento +
                 ", reproducciones=" + reproducciones +
+                ", imagen='" + imagen + '\'' +
                 '}';
     }
 }

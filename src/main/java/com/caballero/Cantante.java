@@ -7,17 +7,26 @@ public class Cantante {
 
     @JsonProperty("nombre")
     private String nombre;
+
     @JsonProperty("añoNacimiento")
     private int añoNacimiento;
+
     @JsonProperty("pais")
     private String pais;
+
+    @JsonProperty("imagen")
+    private String imagen;
+
     @JsonProperty("canciones")
     private List<Cancion> canciones;
+
+
 
     public Cantante(String nombre, int añoNacimiento, String pais, List<Cancion> canciones) {
         this.nombre = nombre;
         this.añoNacimiento = añoNacimiento;
         this.pais = pais;
+        this.imagen = imagen;
         this.canciones = canciones;
     }
 public Cantante() {}
@@ -46,6 +55,14 @@ public Cantante() {}
         this.pais = pais;
     }
 
+    public String getImagen() {
+        return imagen;
+    }
+
+    public void setImagen(String imagen) {
+        this.imagen = imagen;
+    }
+
     public List<Cancion> getCanciones() {
         return canciones;
     }
@@ -60,6 +77,7 @@ public Cantante() {}
                 "nombre='" + nombre + '\'' +
                 ", añoNacimiento=" + añoNacimiento +
                 ", pais='" + pais + '\'' +
+                ", imagen='" + imagen + '\'' +
                 ", canciones=" + canciones +
                 '}';
     }
