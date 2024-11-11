@@ -20,6 +20,11 @@
             "type": "string",
             "minLength": 1
           },
+          "imagen": {
+            "type": "string",
+            "format": "uri",
+            "minLength": 1
+          },
           "canciones": {
             "type": "array",
             "items": {
@@ -37,14 +42,19 @@
                 "reproducciones": {
                   "type": "integer",
                   "minimum": 0
+                },
+                "imagen": {
+                  "type": "string",
+                  "format": "uri",
+                  "minLength": 1
                 }
               },
-              "required": ["titulo", "añoLanzamiento"]
+              "required": ["titulo", "añoLanzamiento", "imagen"]
             },
             "minItems": 1
           }
         },
-        "required": ["nombre", "añoNacimiento", "pais", "canciones"]
+        "required": ["nombre", "añoNacimiento", "pais", "imagen", "canciones"]
       }
     }
   },
