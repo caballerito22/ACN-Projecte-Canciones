@@ -4,7 +4,6 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.util.List;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import java.util.List;
 
 public class ListaDeCantantes {
 
@@ -28,9 +27,8 @@ public class ListaDeCantantes {
 
         @Override
         public String toString() {
-            return "ListaCantantes{" +
+            return "ListaDeCantantes{" +
                     "cantantes=" + cantantes +
                     '}';
         }
-
 }
