@@ -4,31 +4,37 @@
       "nombre": "Myke Towers",
       "añoNacimiento": 1994,
       "pais": "Puerto Rico",
+      "imagen": "https://s1.abcstatics.com/abc/www/multimedia/play/2024/05/22/myke-towers-kXj-U6025231639588jD-1200x840@diario_abc.jpg",
       "canciones": [
         {
           "titulo": "La Jeepeta",
           "añoLanzamiento": 2020,
-          "reproducciones": 5000000
+          "reproducciones": 5000000,
+          "imagen": "https://i.ytimg.com/vi/r-GBckkgez0/maxresdefault.jpg"
         },
         {
           "titulo": "Girl",
           "añoLanzamiento": 2019,
-          "reproducciones": 4500000
+          "reproducciones": 4500000,
+          "imagen": "https://i1.sndcdn.com/artworks-YincwHyDGUTwxSRO-JFaNyA-t500x500.jpg"
         },
         {
           "titulo": "Bandido",
           "añoLanzamiento": 2020,
-          "reproducciones": 6000000
+          "reproducciones": 6000000,
+          "imagen": "https://i1.sndcdn.com/artworks-cQ7Kbjjy6SV6-0-t500x500.jpg"
         },
         {
           "titulo": "Mírenme Ahora",
           "añoLanzamiento": 2022,
-          "reproducciones": 7000000
+          "reproducciones": 7000000,
+          "imagen": "https://i1.sndcdn.com/artworks-otRiegkMHRLfbUiW-sd1HSg-t500x500.jpg"
         },
         {
           "titulo": "Experimento",
           "añoLanzamiento": 2022,
-          "reproducciones": 8000000
+          "reproducciones": 8000000,
+          "imagen": "https://i.ytimg.com/vi/khPFC_3kgpY/maxresdefault.jpg"
         }
       ]
     },
@@ -36,31 +42,37 @@
       "nombre": "Quevedo",
       "añoNacimiento": 2001,
       "pais": "España",
+      "imagen": "https://rtvc.es/archivos/2023/01/Quevedo-1024x1024.jpg",
       "canciones": [
         {
           "titulo": "Quédate",
           "añoLanzamiento": 2022,
-          "reproducciones": 4200000
+          "reproducciones": 4200000,
+          "imagen": "https://i1.sndcdn.com/artworks-JEIh3pHVkLqfygAz-I8j1qg-t500x500.jpg"
         },
         {
           "titulo": "Punto G",
           "añoLanzamiento": 2021,
-          "reproducciones": 3200000
+          "reproducciones": 3200000,
+          "imagen": "https://i1.sndcdn.com/artworks-1RZdtuWbNDyPwAQu-CNUwlg-t1080x1080.jpg"
         },
         {
           "titulo": "Ahora y Siempre",
           "añoLanzamiento": 2022,
-          "reproducciones": 3500000
+          "reproducciones": 3500000,
+          "imagen": "https://i.ytimg.com/vi/wlPl-rP6j2g/sddefault.jpg"
         },
         {
           "titulo": "Sin Señal",
           "añoLanzamiento": 2021,
-          "reproducciones": 2500000
+          "reproducciones": 2500000,
+          "imagen": "https://i1.sndcdn.com/artworks-EqzyAydjzrHcG0q0-aS1Yeg-t500x500.jpg"
         },
         {
           "titulo": "Chamaquita",
           "añoLanzamiento": 2021,
-          "reproducciones": 2000000
+          "reproducciones": 2000000,
+          "imagen": "https://i.ytimg.com/vi/OGlrIYOMo_s/sddefault.jpg"
         }
       ]
     },
@@ -68,31 +80,37 @@
       "nombre": "Jhayco",
       "añoNacimiento": 1993,
       "pais": "Puerto Rico",
+      "imagen": "https://media.revistagq.com/photos/671a1172e681f06e9018c58b/master/w_1600%2Cc_limit/GQHYPE-JHAYCO-WEB.jpg",
       "canciones": [
         {
           "titulo": "No Me Conoce",
           "añoLanzamiento": 2019,
-          "reproducciones": 8000000
+          "reproducciones": 8000000,
+          "imagen": "https://i.ytimg.com/vi/Bc8nwtJylxI/maxresdefault.jpg"
         },
         {
           "titulo": "Dákiti",
           "añoLanzamiento": 2020,
-          "reproducciones": 8500000
+          "reproducciones": 8500000,
+          "imagen": "https://i.ytimg.com/vi/hEr7CiKax8Q/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCbUHJJJqCZNluYMiZFPQgwZWN8LQ"
         },
         {
           "titulo": "En Mi Cuarto",
           "añoLanzamiento": 2021,
-          "reproducciones": 7500000
+          "reproducciones": 7500000,
+          "imagen": "https://i1.sndcdn.com/artworks-tO7YE7W6ldDO62rn-6P665w-t500x500.jpg"
         },
         {
           "titulo": "Tarot",
           "añoLanzamiento": 2022,
-          "reproducciones": 9000000
+          "reproducciones": 9000000,
+          "imagen": "https://i.ytimg.com/vi/2qutcPzehPE/maxresdefault.jpg"
         },
         {
           "titulo": "Sensual Bebé",
           "añoLanzamiento": 2022,
-          "reproducciones": 9500000
+          "reproducciones": 9500000,
+          "imagen": "https://i.ytimg.com/vi/OwhWSNiE1QY/maxresdefault.jpg"
         }
       ]
     },
@@ -100,31 +118,37 @@
       "nombre": "Gonzy",
       "añoNacimiento": 1993,
       "pais": "EEUU",
+      "imagen": "https://cdn-images.dzcdn.net/images/artist/ab7ef51cfa0cb9f7b04564976173485c/1900x1900-000000-80-0-0.jpg",
       "canciones": [
         {
           "titulo": "X’CLUSIVO",
           "añoLanzamiento": 2023,
-          "reproducciones": 1000000
+          "reproducciones": 1000000,
+          "imagen": "https://i1.sndcdn.com/artworks-RvGfzLgzN61FbYAJ-vzTzUw-t500x500.jpg"
         },
         {
           "titulo": "La Jaula",
           "añoLanzamiento": 2024,
-          "reproducciones": 1500000
+          "reproducciones": 1500000,
+          "imagen": "https://images.genius.com/de6a78c067b5ef5a3350f6d3f9228405.300x300x1.png"
         },
         {
           "titulo": "La Calma",
           "añoLanzamiento": 2023,
-          "reproducciones": 1200000
+          "reproducciones": 1200000,
+          "imagen": "https://i.ytimg.com/vi/e_8EtbrpQPI/hqdefault.jpg"
         },
         {
           "titulo": "EROTICAAAAAAA",
           "añoLanzamiento": 2024,
-          "reproducciones": 1700000
+          "reproducciones": 1700000,
+          "imagen": "https://i.ytimg.com/vi/1w-FRnH2F-o/maxresdefault.jpg"
         },
         {
           "titulo": "Friki",
           "añoLanzamiento": 2024,
-          "reproducciones": 1600000
+          "reproducciones": 1600000,
+          "imagen": "https://i.ytimg.com/vi/np5po6PlFz0/sddefault.jpg"
         }
       ]
     },
@@ -132,31 +156,37 @@
       "nombre": "Lucho RK",
       "añoNacimiento": 2000,
       "pais": "España",
+      "imagen": "https://akamai.sscdn.co/uploadfile/letras/fotos/b/2/2/a/b22afed0981f12e75094ffe840d9d20a.jpg",
       "canciones": [
         {
           "titulo": "Caramelo",
           "añoLanzamiento": 2024,
-          "reproducciones": 500000
+          "reproducciones": 500000,
+          "imagen": "https://i.ytimg.com/vi/euy632CE0vs/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBmajvQPNBi9AqBFWXrHWR4aMpFzg"
         },
         {
           "titulo": "Big Checks",
           "añoLanzamiento": 2024,
-          "reproducciones": 600000
+          "reproducciones": 600000,
+          "imagen": "https://i.ytimg.com/vi/sHztc81M720/hqdefault.jpg"
         },
         {
           "titulo": "Esos Ojitos",
           "añoLanzamiento": 2024,
-          "reproducciones": 550000
+          "reproducciones": 550000,
+          "imagen": "https://i.ytimg.com/vi/R0_NgkLERS0/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDMiFKcQQX9z8LNh3mkFQBrctPQ3w"
         },
         {
           "titulo": "AIAIAI",
           "añoLanzamiento": 2024,
-          "reproducciones": 700000
+          "reproducciones": 700000,
+          "imagen": "https://i.ytimg.com/vi/zX-Ah7TlgsY/maxresdefault.jpg"
         },
         {
           "titulo": "Aquí Estoy",
           "añoLanzamiento": 2024,
-          "reproducciones": 1050000
+          "reproducciones": 1050000,
+          "imagen": "https://images.genius.com/8b77c0520ac53c600d84e8296970a81d.1000x1000x1.png"
         }
       ]
     }
