@@ -5,13 +5,15 @@ import org.thymeleaf.TemplateEngine;
 import org.thymeleaf.templateresolver.ClassLoaderTemplateResolver;
 import org.thymeleaf.context.Context;
 
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
+import java.util.Properties;
 
 public class Main {
     public static void main(String[] args) {
+        // Cargar el archivo de configuración
+        Properties config = cargarConfig("src/main/resources/config.ini");
+
+        // Configurar el TemplateEngine de Thymeleaf
         ClassLoaderTemplateResolver templateResolver = new ClassLoaderTemplateResolver();
         templateResolver.setPrefix("templates/");
         templateResolver.setSuffix(".html");
@@ -19,8 +21,14 @@ public class Main {
         TemplateEngine templateEngine = new TemplateEngine();
         templateEngine.setTemplateResolver(templateResolver);
 
+        // Crear el contexto Thymeleaf
         Context context = new Context();
 
+        // Pasar las propiedades del archivo config.ini al contexto
+        context.setVariable("nombre", config.getProperty("nombre"));
+        context.setVariable("descripcion", config.getProperty("descripcion"));
+
+        // Cargar los datos de los cantantes desde el archivo JSON
         ListaDeCantantes lDc = cargaDatos("src/main/resources/cantantes.json");
 
         if (lDc != null) {
@@ -39,6 +47,10 @@ public class Main {
                 Context contextDetalles = new Context();
                 contextDetalles.setVariable("cantante", cantante);
 
+                // Añadir variables del archivo config.ini al contexto de detalles
+                contextDetalles.setVariable("nombre", config.getProperty("nombre"));
+                contextDetalles.setVariable("descripcion", config.getProperty("descripcion"));
+
                 // Generar HTML para cada cantante
                 String detallesHTML = templateEngine.process("plantillaCanciones.html", contextDetalles);
                 String fileName = "src/main/resources/static/detalles_" + cantante.getNombre() + ".html";
@@ -50,10 +62,21 @@ public class Main {
             System.out.println("Error al cargar los datos desde el archivo JSON.");
         }
     }
+
+    public static Properties cargarConfig(String path) {
+        Properties config = new Properties();
+        try (InputStream input = new FileInputStream(path)) {
+            config.load(input);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return config;
+    }
+
     public static ListaDeCantantes cargaDatos(String path) {
         ObjectMapper objectMapper = new ObjectMapper();
         try {
-            return objectMapper.readValue(new File(path),ListaDeCantantes.class);
+            return objectMapper.readValue(new File(path), ListaDeCantantes.class);
         } catch (IOException e) {
             e.printStackTrace();
             return null;

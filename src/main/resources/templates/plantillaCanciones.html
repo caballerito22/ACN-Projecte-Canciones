@@ -2,27 +2,34 @@
 <html lang="es" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title th:text="'Detalles de ' + ${cantante.nombre}"> </title>
-    <link rel="stylesheet" href="static/css/apariencia.css">
+    <title>Detalles del Cantante</title>
+    <link rel="stylesheet" href="src/main/resources/static/css/apariencia.css">
 </head>
 <body>
 <header>
-    <h1 th:text="${cantante.nombre}"></h1>
+    <h2>Explora sus detalles junto a sus 5 mejores canciones</h2>
+
+    <!-- Detalles del cantante -->
+    <h1 th:text="'Detalles de ' + ${cantante.nombre}"></h1>
     <p>Año de nacimiento: <span th:text="${cantante.añoNacimiento}"></span></p>
     <p>País: <span th:text="${cantante.pais}"></span></p>
+    <img th:src="${cantante.imagen}" alt="Imagen de ${cantante.nombre}">
 </header>
 
 <main>
     <section>
-        <h2>Canciones de este Cantante</h2>
+        <h3>Canciones de este Cantante</h3>
         <ul>
             <li th:each="cancion : ${cantante.canciones}">
-                <h3 th:text="${cancion.titulo}"></h3>
+                <h4 th:text="${cancion.titulo}"></h4>
                 <p>Año de lanzamiento: <span th:text="${cancion.añoLanzamiento}"></span></p>
+                <p>Reproducciones: <span th:text="${cancion.reproducciones}"></span></p>
+                <img th:src="${cancion.imagen}" alt="Portada de la canción ${cancion.titulo}">
             </li>
         </ul>
     </section>
 
+    <!-- Enlace de regreso a la página principal -->
     <a href="index.html" class="button">Volver a la página principal</a>
 </main>
 </body>
