@@ -6,6 +6,7 @@
         <description>Lista de cantantes destacados con su información principal.</description>
 
         <!-- Cantantes -->
+        <!-- He quitado el link de las imegenes -->
         <item>
             <title>Myke Towers</title>
             <link>src/main/resources/static/detalles_Myke Towers.html</link>
