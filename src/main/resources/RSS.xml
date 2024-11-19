@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Cantantes destacados</title>
+        <link>src/main/resources/static/index.html</link>
+        <description>Lista de cantantes destacados con su información principal.</description>
+
+        <!-- Cantantes -->
+        <item>
+            <title>Myke Towers</title>
+            <link>src/main/resources/static/detalles_Myke Towers.html</link>
+            <description>Cantante de Puerto Rico nacido en 1994.</description>
+        </item>
+        <item>
+            <title>Quevedo</title>
+            <link>src/main/resources/static/detalles_Quevedo.html</link>
+            <description>Cantante de España nacido en 2001.</description>
+        </item>
+        <item>
+            <title>Jhayco</title>
+            <link>src/main/resources/static/detalles_Jhayco.html</link>
+            <description>Cantante de Puerto Rico nacido en 1993.</description>
+        </item>
+        <item>
+            <title>Gonzy</title>
+            <link>src/main/resources/static/detalles_Gonzy.html</link>
+            <description>Cantante de Estados Unidos nacido en 1993.</description>
+        </item>
+        <item>
+            <title>Lucho RK</title>
+            <link>src/main/resources/static/detalles_Lucho RK.html</link>
+            <description>Cantante de España nacido en 2000.</description>
+        </item>
+    </channel>
+</rss>
