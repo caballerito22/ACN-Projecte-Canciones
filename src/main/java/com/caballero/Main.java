@@ -17,7 +17,7 @@ import java.util.Properties;
 public class Main {
     public static void main(String[] args) {
         try {
-            // Vamos a validar el JSON
+            // Vamos a validar el JSON va?
             JsonNode archivoJSON = JsonLoader.fromFile(new File("src/main/resources/cantantes.json"));
             JsonNode archivoSchema = JsonLoader.fromFile(new File("src/main/resources/schema.json"));
 
