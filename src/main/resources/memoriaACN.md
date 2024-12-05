@@ -31,9 +31,11 @@ En este proyecto hemos creado un generador automático de páginas web estática
 ## 2. Descripción del Proyecto
 El proyecto se encarga de leer los archivos de entrada (JSON, INI) y genera páginas web personalizadas con los datos introducidos. Estas páginas muestran detalles sobre cantantes y sus canciones. Los pasos principales utilizados son:
 
-1. Hacemos el archivo JSON y lo validamos mediante el JSON Schema, también coge datos del archivo de config ini.
-2. Generación de páginas HTML utilizando Thymeleaf.
-3. Creación de un archivo RSS con las novedades del proyecto.
+1. Hacemos el archivo JSON y lo validamos mediante el JSON Schema, también coje datos del archivo de config ini.
+2. También hemos puesto un pequeño código el cual nos informa si el JSON está bien hecho mediante el schema.
+   ![Foto en subcarpeta](imgs/config2.png)
+3. Generación de páginas HTML utilizando Thymeleaf.
+4. Creación de un archivo RSS con las novedades del proyecto.
 
 ---
 
