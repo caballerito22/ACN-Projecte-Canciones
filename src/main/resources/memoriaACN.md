@@ -26,7 +26,7 @@
 ## 1. Introcucción
 En este proyecto hemos creado un generador automático de páginas web estáticas. De esta manera hemos presentado información sobre cantantes y sus canciones más famosas. Todo esto mediante archivos de entrada incluyendo datos en formato JSON que se validan con un esquema JSON Schema. Luego, estos datos se usan para generar páginas HTML con plantillas Thymeleaf.
 
-Al acabar les he dado formato con dos archivos CSS (uno para cada platilla), de esta manera se observa mucho mejor y se hace más ameno gracas a sus colores y estructura (aunque me sale todos a la izquierda).
+Al acabar les he dado formato con dos archivos CSS (uno para cada platilla, dentro de la carpeta de css "src/main/resources/static/css"), de esta manera se observa mucho mejor y se hace más ameno gracas a sus colores y estructura (aunque me sale todos a la izquierda).
 
 
 ---
@@ -467,12 +467,18 @@ Plantilla principal ("plantillaCantantes.html"):
 ---
 
 ## 6. Archivos de Salida
-Los archivos HTML se generan en la carpeta `output/`:
-- `index.html`: Lista principal de cantantes.
-- `detalles.html`: Una página para cada cantante.
+Los archivos HTML se generan en la carpeta `src/main/resources/static`:
+- `index.html`: Es la página principal donde encontramos los 5 cantantes con sus canciones, debajo de las canciones de cada cantante tenemos un botón 'Ver detalles del cantante', que nos lleva a sus detalles (siguiente archivo de salida).
+- `detalles.html`: Cada cantante tiene una página de estas ("detalles_n.cantante.html"), en ella podemos encontar sus detalles y canciones ampliadas con una foto.
+- `rss.xml`: Este es un archivo que se encarga de distribuir el contenido de mi página. Es producido gracias a esta función:
 
-### Captura de ejemplo
-![Captura del sitio web](https://via.placeholder.com/800x400 "Captura del sitio web")
+![Foto en subcarpeta](imgs/config3.png)
+
+### Captura de la página principal
+![Foto en subcarpeta](imgs/config4.png)
+
+### Captura de uno ejemplo de detalles
+![Foto en subcarpeta](imgs/config5.png)
 
 ---
 
