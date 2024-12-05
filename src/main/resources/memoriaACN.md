@@ -364,27 +364,98 @@ Este archivo contiene la configuración del proyecto:
 ---
 
 ## 5. Plantillas Thymeleaf
-- **Plantilla Principal (`index.html`):** Lista todos los cantantes.
-- **Plantilla de Detalles (`detalles.html`):** Muestra información sobre un cantante y sus mejores canciones.
+- **Plantilla Principal (`plantillaCantantes.html`):** Esta es la plantilla que se encarga de mostrar los detalles de cada cantante, luego incluye un botón para acceder al cantante y ver sus canciones.  
 
-Ejemplo de código Thymeleaf:
+Plantilla principal ("plantillaCantantes.html"):
 ```html
 <!DOCTYPE html>
-<html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
 <head>
-    <title>Mejores Cantantes</title>
+    <meta charset="UTF-8">
+    <title th:text="${nombre}">Mejores Cantantes con sus Canciones</title>
+    <link rel="stylesheet" th:href="@{css/apariencia1.css}" />
+
 </head>
 <body>
-<h1 th:text="${config.nombre}"></h1>
-<ul>
-    <li th:each="cantante : ${cantantes}">
-        <a th:href="@{'/cantante/' + ${cantante.nombre}}" th:text="${cantante.nombre}"></a>
-    </li>
-</ul>
+<header>
+    <h1 th:text="${nombre}"></h1>
+    <p th:text="${descripcion}"></p>
+</header>
+
+<!--modificar la plantilla y poner una card cuadros pequeñitos en seciones -->
+
+<main>
+    <section>
+        <h2>Lista de Cantantes</h2>
+        <ul>
+            <li th:each="cantante : ${cantantes}">
+                <!-- Mostrar el nombre del cantante, año de nacimiento y su imagen -->
+                <h3 th:text="${cantante.nombre + ' (' + cantante.añoNacimiento + ')'}"></h3>
+                <p>País: <span th:text="${cantante.pais}"></span></p>
+                <img th:src="${cantante.imagen}" alt="Imagen de ${cantante.nombre}" style="width: 150px; height: auto;">
+
+                <h4>Canciones:</h4>
+                <ul>
+                    <li th:each="cancion : ${cantante.canciones}">
+                        <!-- Mostrar título de cada canción, año de lanzamiento y reproducciones -->
+                        <p th:text="${cancion.titulo + ' (' + cancion.añoLanzamiento + ')'}"></p>
+                        <p>Reproducciones: <span th:text="${cancion.reproducciones}"></span></p>
+                    </li>
+                </ul>
+
+                <!-- Enlace a la página de detalles del cantante -->
+                <a th:href="@{'detalles_' + ${cantante.nombre} + '.html'}">Ver detalles del cantante</a>
+            </li>
+        </ul>
+    </section>
+</main>
 </body>
 </html>
+
 ```
 
+- **Plantilla de Detalles (`plantillaCanciones.html`):** Muestra la información del cantante y sus cinco mejores canciones (indicando los detalles de cada canión).
+```html
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Detalles del Cantante</title>
+    <link rel="stylesheet" th:href="@{css/apariencia2.css}" />
+
+</head>
+<body>
+<header>
+    <h2>Explora sus detalles junto a sus 5 mejores canciones</h2>
+
+    <!-- Detalles del cantante -->
+    <h1 th:text="'Detalles de ' + ${cantante.nombre}"></h1>
+    <p>Año de nacimiento: <span th:text="${cantante.añoNacimiento}"></span></p>
+    <p>País: <span th:text="${cantante.pais}"></span></p>
+    <img th:src="${cantante.imagen}" alt="Imagen de ${cantante.nombre}">
+</header>
+
+<main>
+    <section>
+        <h3>Canciones de este Cantante</h3>
+        <ul>
+            <li th:each="cancion : ${cantante.canciones}">
+                <h4 th:text="${cancion.titulo}"></h4>
+                <p>Año de lanzamiento: <span th:text="${cancion.añoLanzamiento}"></span></p>
+                <p>Reproducciones: <span th:text="${cancion.reproducciones}"></span></p>
+                <img th:src="${cancion.imagen}" alt="Portada de la canción ${cancion.titulo}">
+            </li>
+        </ul>
+    </section>
+
+    <!-- Enlace de regreso a la página principal -->
+    <a href="index.html" class="button">Volver a la página principal</a>
+</main>
+</body>
+</html>
+
+
+```
 ---
 
 ## 6. Archivos de Salida
