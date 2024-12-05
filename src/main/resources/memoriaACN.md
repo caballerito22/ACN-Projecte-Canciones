@@ -484,17 +484,18 @@ Los archivos HTML se generan en la carpeta `src/main/resources/static`:
 
 ## 7. Problemas Resueltos y No Resueltos
 - **Resueltos:**
-    - Validación del JSON con esquemas.
-    - Integración de Thymeleaf con el proyecto.
+    - Añadir la dependencia de slf4j para que no me salgan errores de diagnostico.
+    - ![Foto en subcarpeta](imgs/error1.png)
+      - Integración de las plantillas con html, ya que se me ejecutaba, pero no me creaba los detalles, a paser de que el proyecto me iba porque tenia los detalles creados yo, no se creaban al ejecutal el main. Al final conseguí poner bien las plantillas.
 - **No Resueltos:**
-    - Automatización de pruebas unitarias para la validación.
-    - Errores ocasionales en el RSS por caracteres especiales.
+    - Me salen todas las cosas pegadas a la izquierda, todo lo de la derecha está vacío y queda mal, me falta modificar las plantillas para que quede mejor.
+    - No he conseguido hacer la parte de ampliación (cache).
 
 ---
 
 ## 8. Webgrafía
-1. **Documentación JSON Schema:** [https://json-schema.org](https://json-schema.org)
-2. **Thymeleaf Tutorials:** [https://www.thymeleaf.org](https://www.thymeleaf.org)
-3. **Jackson Documentation:** [https://github.com/FasterXML/jackson](https://github.com/FasterXML/jackson)
-4. **Referencias RSS:** [https://www.rssboard.org/rss-specification](https://www.rssboard.org/rss-specification)
+1. **Aprender lo que es un fichero RSS:** [https://ca.wikipedia.org/wiki/RSS](https://ca.wikipedia.org/wiki/RSS)
+2. **Recursos para el Thymeleaf:** [https://aules.edu.gva.es/fp/pluginfile.php/7965809/mod_resource/content/4/Exemple%20Thymeleaf.pdf](https://aules.edu.gva.es/fp/pluginfile.php/7965809/mod_resource/content/4/Exemple%20Thymeleaf.pdf)
+3. **Encontrar dependencias:** [https://mvnrepository.com/](https://mvnrepository.com/)
+4. **Aprender cosas básicas de Markdown:** [https://experienceleague.adobe.com/es/docs/contributor/contributor-guide/writing-essentials/markdown](https://experienceleague.adobe.com/es/docs/contributor/contributor-guide/writing-essentials/markdown)
 
