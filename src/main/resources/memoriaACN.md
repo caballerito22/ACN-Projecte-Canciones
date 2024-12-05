@@ -33,6 +33,7 @@ El proyecto se encarga de leer los archivos de entrada (JSON, INI) y genera pág
 
 1. Hacemos el archivo JSON y lo validamos mediante el JSON Schema, también coje datos del archivo de config ini.
 2. También hemos puesto un pequeño código el cual nos informa si el JSON está bien hecho mediante el schema.
+
    ![Foto en subcarpeta](imgs/config2.png)
 3. Generación de páginas HTML utilizando Thymeleaf.
 4. Creación de un archivo RSS con las novedades del proyecto.
@@ -310,6 +311,7 @@ Este archivo su principal próposito es validar la estructura del archivo JSON:
 
 ### 3.3 Archivo INI
 Este archivo contiene la configuración del proyecto:
+
 ![Foto en subcarpeta](imgs/config.png)
 
 ---
