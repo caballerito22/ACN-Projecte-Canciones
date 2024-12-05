@@ -321,18 +321,45 @@ Este archivo contiene la configuración del proyecto:
 
 - **Dependencias Maven:**
 ```xml
-<dependency>
-  <groupId>com.fasterxml.jackson.core</groupId>
-  <artifactId>jackson-databind</artifactId>
-  <version>2.15.0</version>
-</dependency>
+<dependencies>
+    <!--Genera las páginas web HTML a partir de plantillas (Cantantes y Canciones.html)-->
+    <dependency>
+        <groupId>org.thymeleaf</groupId>
+        <artifactId>thymeleaf</artifactId>
+        <version>3.1.2.RELEASE</version>
+    </dependency>
+    <!--Convierte el archivo JSON en objetos Java-->
+    <dependency>
+        <groupId>com.fasterxml.jackson.core</groupId>
+        <artifactId>jackson-databind</artifactId>
+        <version>2.18.1</version>
+    </dependency>
+    <!--La tengo para que salgan mensajes de diagnóstico y no me salga error (imagen)-->
+    <dependency>
+        <groupId>org.slf4j</groupId>
+        <artifactId>slf4j-api</artifactId>
+        <version>1.7.32</version>
+    </dependency>
+    <!--Valida el JSON-->
+    <dependency>
+        <groupId>com.github.java-json-tools</groupId>
+        <artifactId>json-schema-validator</artifactId>
+        <version>2.2.14</version>
+    </dependency>
+    <!--Se encarga de que salgan los mensajes de los logs y no me salgan rojos (sin ella -> error)-->
+    <dependency>
+        <groupId>ch.qos.logback</groupId>
+        <artifactId>logback-classic</artifactId>
+        <version>1.2.6</version>
+    </dependency>
+</dependencies>
 
 ```
 
 - **Clases Java:**
-    - `Cantante`: Modelo para representar un cantante.
-    - `Canción`: Modelo para representar una canción.
-    - `GeneradorPaginas`: Clase principal para gestionar la generación de páginas.
+    - `Canción`: La clase Cancion tiene atributos titulo, añoLanzamiento, reproducciones e imagen. Utiliza la anotación @JsonProperty para mapear los atributos a claves JSON al hacer la serialización/deserialización.
+    - `Cantante`: La clase Cantante tiene atributos nombre, añoNacimiento, pais, imagen y canciones. Utiliza la anotación @JsonProperty para mapear estos atributos a claves JSON para serialización/deserialización.
+    - `LiastaDeCantantes`: La clase ListaDeCantantes tiene un atributo cantantes, que es una lista de objetos de la clase Cantante. Utiliza la anotación @JsonProperty para mapear la lista a la clave JSON "cantantes" durante la serialización/deserialización.
 
 ---
 
