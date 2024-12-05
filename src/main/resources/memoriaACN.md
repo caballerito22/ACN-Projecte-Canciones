@@ -317,6 +317,7 @@ Este archivo contiene la configuración del proyecto:
 - **Librerías Utilizadas:**
     - `Jackson`: Para manejar el archivo JSON (con el ObjectMapper).
     - `Thymeleaf`: Esta la usamos para generar los HTML a partir de las plantillas de Cantantes y Canciones (ambas HTML).
+    - `JSON-validator`: Esta la usamos para validar el Schema.
 
 - **Dependencias Maven:**
 ```xml
