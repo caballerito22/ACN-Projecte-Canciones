@@ -308,7 +308,7 @@ Este archivo su principal próposito es validar la estructura del archivo JSON:
 
 ### 3.3 Archivo INI
 Este archivo contiene la configuración del proyecto:
-![Foto en subcarpeta](config.png)
+![Foto en subcarpeta](imgs/config.png)
 
 ---
 
