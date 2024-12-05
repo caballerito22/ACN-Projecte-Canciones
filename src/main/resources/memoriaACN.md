@@ -26,6 +26,9 @@
 ## 1. Introcucción
 En este proyecto hemos creado un generador automático de páginas web estáticas. De esta manera hemos presentado información sobre cantantes y sus canciones más famosas. Todo esto mediante archivos de entrada incluyendo datos en formato JSON que se validan con un esquema JSON Schema. Luego, estos datos se usan para generar páginas HTML con plantillas Thymeleaf.
 
+Al acabar les he dado formato con dos archivos CSS (uno para cada platilla), de esta manera se observa mucho mejor y se hace más ameno gracas a sus colores y estructura (aunque me sale todos a la izquierda).
+
+
 ---
 
 ## 2. Descripción del Proyecto
