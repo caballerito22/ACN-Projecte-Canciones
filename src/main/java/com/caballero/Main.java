@@ -33,7 +33,7 @@ public class Main {
             // Cargar el archivo de configuración
             Properties config = cargarConfig("src/main/resources/config.ini");
 
-            // Configurar el TemplateEngine de Thymeleaf
+            // Configurar el TemplateEngine de Thymeleaf, ponemos la ruta y la extensión que tendrá
             ClassLoaderTemplateResolver templateResolver = new ClassLoaderTemplateResolver();
             templateResolver.setPrefix("templates/");
             templateResolver.setSuffix(".html");
@@ -55,7 +55,7 @@ public class Main {
                 // Establecer la lista de cantantes como variable para el template
                 context.setVariable("cantantes", lDc.getCantantes());
 
-                // Generar el HTML principal (por ejemplo, un índice con todos los cantantes)
+                // Generar el HTML principal (por ejemplo, un índice con todos los cantantes, que es la plantilla principal)
                 String contenidoHTML = templateEngine.process("plantillaCantantes.html", context);
                 System.out.println(contenidoHTML);
 
@@ -90,6 +90,7 @@ public class Main {
         }
     }
 
+    //nos devuelve el objeto con sus propiedades mediante InputStream
     public static Properties cargarConfig(String path) {
         Properties config = new Properties();
         try (InputStream input = new FileInputStream(path)) {
@@ -100,6 +101,7 @@ public class Main {
         return config;
     }
 
+    //Devuelve una instancia de ListaDeCantantes con los datos cargados. Si ocurre un error, devuelve null.
     public static ListaDeCantantes cargaDatos(String path) {
         ObjectMapper objectMapper = new ObjectMapper();
         try {
@@ -110,6 +112,7 @@ public class Main {
         }
     }
 
+    //escribe el HTML con el contenido
     public static void escribirHTML(String contenido, String nombreArchivo) {
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(nombreArchivo))) {
             writer.write(contenido);
@@ -118,6 +121,7 @@ public class Main {
         }
     }
 
+    //por el nombre intuimos lo que hace
     public static void generamosRss(ListaDeCantantes listaCan, String rutaRss, String nombre, String descripcion) {
         try (BufferedWriter bw = new BufferedWriter(new FileWriter(rutaRss))) {
             bw.write("<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n");
