@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+<title>Cantantes y Canciones</title>
+<link>src/main/resources/static/index.html</link>
+<description>Un sitio donde podemos encontar 5 cantantes con 5 de sus mejores canciones</description>
+<item>
+<title>La Jeepeta</title>
+<link>src/main/resources/static/detalles_Myke Towers.html</link>
+<description>
+Artista: Myke Towers
+Año: 2020
+Reproducciones: 5000000
+</description>
+</item>
+<item>
+<title>Girl</title>
+<link>src/main/resources/static/detalles_Myke Towers.html</link>
+<description>
+Artista: Myke Towers
+Año: 2019
+Reproducciones: 4500000
+</description>
+</item>
+<item>
+<title>Bandido</title>
+<link>src/main/resources/static/detalles_Myke Towers.html</link>
+<description>
+Artista: Myke Towers
+Año: 2020
+Reproducciones: 6000000
+</description>
+</item>
+<item>
+<title>Mírenme Ahora</title>
+<link>src/main/resources/static/detalles_Myke Towers.html</link>
+<description>
+Artista: Myke Towers
+Año: 2022
+Reproducciones: 7000000
+</description>
+</item>
+<item>
+<title>Experimento</title>
+<link>src/main/resources/static/detalles_Myke Towers.html</link>
+<description>
+Artista: Myke Towers
+Año: 2022
+Reproducciones: 8000000
+</description>
+</item>
+<item>
+<title>Quédate</title>
+<link>src/main/resources/static/detalles_Quevedo.html</link>
+<description>
+Artista: Quevedo
+Año: 2022
+Reproducciones: 4200000
+</description>
+</item>
+<item>
+<title>Punto G</title>
+<link>src/main/resources/static/detalles_Quevedo.html</link>
+<description>
+Artista: Quevedo
+Año: 2021
+Reproducciones: 3200000
+</description>
+</item>
+<item>
+<title>Ahora y Siempre</title>
+<link>src/main/resources/static/detalles_Quevedo.html</link>
+<description>
+Artista: Quevedo
+Año: 2022
+Reproducciones: 3500000
+</description>
+</item>
+<item>
+<title>Sin Señal</title>
+<link>src/main/resources/static/detalles_Quevedo.html</link>
+<description>
+Artista: Quevedo
+Año: 2021
+Reproducciones: 2500000
+</description>
+</item>
+<item>
+<title>Chamaquita</title>
+<link>src/main/resources/static/detalles_Quevedo.html</link>
+<description>
+Artista: Quevedo
+Año: 2021
+Reproducciones: 2000000
+</description>
+</item>
+<item>
+<title>No Me Conoce</title>
+<link>src/main/resources/static/detalles_Jhayco.html</link>
+<description>
+Artista: Jhayco
+Año: 2019
+Reproducciones: 8000000
+</description>
+</item>
+<item>
+<title>Dákiti</title>
+<link>src/main/resources/static/detalles_Jhayco.html</link>
+<description>
+Artista: Jhayco
+Año: 2020
+Reproducciones: 8500000
+</description>
+</item>
+<item>
+<title>En Mi Cuarto</title>
+<link>src/main/resources/static/detalles_Jhayco.html</link>
+<description>
+Artista: Jhayco
+Año: 2021
+Reproducciones: 7500000
+</description>
+</item>
+<item>
+<title>Tarot</title>
+<link>src/main/resources/static/detalles_Jhayco.html</link>
+<description>
+Artista: Jhayco
+Año: 2022
+Reproducciones: 9000000
+</description>
+</item>
+<item>
+<title>Sensual Bebé</title>
+<link>src/main/resources/static/detalles_Jhayco.html</link>
+<description>
+Artista: Jhayco
+Año: 2022
+Reproducciones: 9500000
+</description>
+</item>
+<item>
+<title>X’CLUSIVO</title>
+<link>src/main/resources/static/detalles_Gonzy.html</link>
+<description>
+Artista: Gonzy
+Año: 2023
+Reproducciones: 1000000
+</description>
+</item>
+<item>
+<title>La Jaula</title>
+<link>src/main/resources/static/detalles_Gonzy.html</link>
+<description>
+Artista: Gonzy
+Año: 2024
+Reproducciones: 1500000
+</description>
+</item>
+<item>
+<title>La Calma</title>
+<link>src/main/resources/static/detalles_Gonzy.html</link>
+<description>
+Artista: Gonzy
+Año: 2023
+Reproducciones: 1200000
+</description>
+</item>
+<item>
+<title>EROTICAAAAAAA</title>
+<link>src/main/resources/static/detalles_Gonzy.html</link>
+<description>
+Artista: Gonzy
+Año: 2024
+Reproducciones: 1700000
+</description>
+</item>
+<item>
+<title>Friki</title>
+<link>src/main/resources/static/detalles_Gonzy.html</link>
+<description>
+Artista: Gonzy
+Año: 2024
+Reproducciones: 1600000
+</description>
+</item>
+<item>
+<title>Caramelo</title>
+<link>src/main/resources/static/detalles_Lucho RK.html</link>
+<description>
+Artista: Lucho RK
+Año: 2024
+Reproducciones: 500000
+</description>
+</item>
+<item>
+<title>Big Checks</title>
+<link>src/main/resources/static/detalles_Lucho RK.html</link>
+<description>
+Artista: Lucho RK
+Año: 2024
+Reproducciones: 600000
+</description>
+</item>
+<item>
+<title>Esos Ojitos</title>
+<link>src/main/resources/static/detalles_Lucho RK.html</link>
+<description>
+Artista: Lucho RK
+Año: 2024
+Reproducciones: 550000
+</description>
+</item>
+<item>
+<title>AIAIAI</title>
+<link>src/main/resources/static/detalles_Lucho RK.html</link>
+<description>
+Artista: Lucho RK
+Año: 2024
+Reproducciones: 700000
+</description>
+</item>
+<item>
+<title>Aquí Estoy</title>
+<link>src/main/resources/static/detalles_Lucho RK.html</link>
+<description>
+Artista: Lucho RK
+Año: 2024
+Reproducciones: 1050000
+</description>
+</item>
+</channel>
+</rss>
